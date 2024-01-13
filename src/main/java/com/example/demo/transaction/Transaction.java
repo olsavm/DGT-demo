@@ -10,11 +10,11 @@ public class Transaction {
     private String id;
 
     private String name;
-    private Double amount;
+    private String type;
 
-    public Transaction (String name, Double amount) {
+    public Transaction (String name, String type) {
         this.name = name;
-        this.amount = amount;
+        this.type = type;
     }
 
     public String getId() {
@@ -33,11 +33,11 @@ public class Transaction {
         this.name = name;
     }
 
-    public Double getAmount() {
-        return amount;
+    public String getType() {
+        return type;
     }
 
-    public void setAmount(Double amount) {
-        this.amount = amount;
+    public void setType(String type) {
+        this.type = type;
     }
 }
