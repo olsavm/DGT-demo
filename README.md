@@ -8,6 +8,8 @@ This is the repo for DGT demo transaction app. Code is fully working so feel fre
 Database is hosted on mongoDB Atlas Cloud so no setup is required.
 <h2>Endpoints</h2>
 <strong>POST</strong> localhost:8080/transactions
+<br/>
+Creates a transaction
 <br/><br/>
 example request body:
 <br/>
@@ -21,6 +23,8 @@ example request body:
 <strong>possible transaction types:</strong> international, national
 <h2></h2>
 <strong>GET</strong> localhost:8080/transactions/(:id)/fee
+<br/>
+Gets a transaction's fee
 <br/>
 <br/>
 existing ids: 65a3d4d0120a7841bef4e83b, 65a3d809e5bd0f20eb9931e2
